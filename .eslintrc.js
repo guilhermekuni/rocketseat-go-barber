@@ -23,10 +23,4 @@ module.exports = {
     "camelcase": "off",
     "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
   },
-  parserOptions: {
-    "ecmaVersion": 5,
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    }
-  },
 };
