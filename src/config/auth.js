@@ -1,4 +1,4 @@
 export default {
-  secret: '762b31810258f576afc93fd4d1859236', //MD5 -> goBarberRocketSeat
+  secret: process.env.APP_SECRET,
   expiresIn: '7d',
 };
